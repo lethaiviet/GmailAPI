@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/lethaiviet/GmailAPI">
-    <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png" alt="Logo" width="160" height="80">
+    <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png" alt="Logo">
   </a>
 
 <h3 align="center">Gmail API demo with java</h3>
@@ -37,12 +37,13 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+
 This is only a small demo about how to use Gmail api:
+
 * Send a message with the body is plain text or html
 * Send a message with attachment
 * Get the emails with query
 * Get the link directly from the content email
-
 
 ### Folder Structure
 
@@ -167,6 +168,7 @@ This is only a small demo about how to use Gmail api:
         - __allure\-commandline\-2.13.9__
         - __converterTool__
             - [ConverterExcelAndJson.exe](tool/converterTool/ConverterExcelAndJson.exe)
+
 </details>
 
 <!-- GETTING STARTED -->
@@ -203,12 +205,12 @@ Create `credentials.json` for your account gmail
     <td class="tg-0pky"><img src="doc/images/01_open_cloud_console.png" alt="open_cloud_console"></td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">2.Click to "CREATE PROJECT" > fill all information as the image</td>
+    <td class="tg-0pky"><img src="doc/images/02_create_new_project.png" alt="create_new_project"></td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">3.Click to the CREATE button > we have the results as the image</td>
+    <td class="tg-0pky"><img src="doc/images/03_results_after_creating_new_project.PNG" alt="results_after_creating_new_project"></td>
   </tr>
 </tbody>
 </table>
@@ -251,7 +253,8 @@ Project Link: [https://github.com/lethaiviet/SeleniumLvl2](https://github.com/le
 
 | Issue | How to fix |
 | ------------- | ------------- |
-| The report is generated **allure-testng** CANNOT show all the steps in cucumber  | Work around: <ul><li>Implement `cucumber.junit` with plugin `io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm` </li><li> Use extent report while waiting for allure-testng is fixed</li></ul> Note: <ul><li> [Allure Test NG report TestBody is missing](https://stackoverflow.com/questions/57566093/allure-test-ng-report-testbody-is-missing) </li><li>[Test body is missed in report if run test via "java org.testng.TestNG suite.xml"](https://github.com/allure-framework/allure-java/issues/301) </li> <li>[Test body is missing in (cucumber) testNG report"](https://github.com/allure-framework/allure-java/issues/398) </li></ul> |
+| The report is generated **
+allure-testng** CANNOT show all the steps in cucumber  | Work around: <ul><li>Implement `cucumber.junit` with plugin `io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm` </li><li> Use extent report while waiting for allure-testng is fixed</li></ul> Note: <ul><li> [Allure Test NG report TestBody is missing](https://stackoverflow.com/questions/57566093/allure-test-ng-report-testbody-is-missing) </li><li>[Test body is missed in report if run test via "java org.testng.TestNG suite.xml"](https://github.com/allure-framework/allure-java/issues/301) </li> <li>[Test body is missing in (cucumber) testNG report"](https://github.com/allure-framework/allure-java/issues/398) </li></ul> |
 | Build project on IntelliJ IDEA with the below error: <br> `cannot find symbol` <br> `int numTicketBooking = ticketInfoLst.get(0).getAmount();` | [Install Lombok Plugin on IntelliJ IDEA](https://projectlombok.org/setup/intellij)  |
 
 <!-- MARKDOWN LINKS & IMAGES -->
