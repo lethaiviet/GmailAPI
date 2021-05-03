@@ -197,9 +197,9 @@ Create `credentials.json` for your account gmail
 <table class="tg">
 <tbody>
   <tr>
-    <td class="tg-0pky" style="width: 20%;">Description</td>
-    <td class="tg-0pky" style="width: 30%;">Steps</td>
-    <td class="tg-0pky" style="width: 50%;">Image</td>
+    <td class="tg-0pky" width="200">Description</td>
+    <td class="tg-0pky">Steps</td>
+    <td class="tg-0pky">Image</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="3">In order to use Google APIs, we must create first the project on Google developer console</td>
