@@ -29,7 +29,7 @@ public class GmailQuickstart {
         String timestamp = getCurrentTimestamp().toString();
         String bodyHtml = readFileAsString(EMAIL_TEMPLATE)
                 .replace("PARAM_TIMESTAMP", timestamp);
-        MimeMessage message = GmailHelper.createEmail(to, from, subject, "hello lethaiviet002@gmail.com", bodyHtml);
+        MimeMessage message = GmailHelper.createEmail(to, from, subject, "hello yellowCat", bodyHtml);
         GmailHelper gmailHelper1 = new GmailHelper();
         gmailHelper1.sendMessage(message);
 
