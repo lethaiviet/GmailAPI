@@ -192,6 +192,7 @@ Clone the repo
 
 Create `credentials.json` for your account gmail
 
+[comment]: <> (https://www.tablesgenerator.com/html_tables#)
 <table class="tg">
 <tbody>
   <tr>
@@ -211,6 +212,27 @@ Create `credentials.json` for your account gmail
   <tr>
     <td class="tg-0pky">3.Click to the CREATE button > we have the results as the image</td>
     <td class="tg-0pky"><img src="doc/images/03_results_after_creating_new_project.PNG" alt="results_after_creating_new_project"></td>
+  </tr>
+
+  <tr>
+    <td class="tg-0pky" rowspan="4">When you use OAuth 2.0 for authorization, your app requests authorizations for one or more scopes of access from a Google Account. Google displays a consent screen to the user including a summary of your project and its policies and the requested scopes of access. You must configure the consent screen for all apps</td>
+    <td class="tg-0pky">4.Click APIs & Services > Credentials</td>
+    <td class="tg-0pky"><img src="doc/images/04_step_before_going_to_credential_page.png" alt="step_before_going_to_credential_page"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">5.Click "OAuth consent screen"</td>
+    <td class="tg-0pky"><img src="doc/images/04_go_to_credential_page.png" alt="go_to_credential_page"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">6.Click the user type for your app > select "External"</td>
+    <td class="tg-0pky"><img src="doc/images/05_select_user_type.png" alt="select_user_type"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">7.Click Create > fill out the form</td>
+    <td class="tg-0pky"><img src="doc/images/06_fill_app_info_form.png" alt="06_fill_app_info_form"><br>
+<img src="doc/images/06_fill_app_info_form_scope.png" alt="06_fill_app_info_form_scope"><br>
+<img src="doc/images/06_fill_app_info_form_test_users.png" alt="06_fill_app_info_form_test_users"><br>
+</td>
   </tr>
 </tbody>
 </table>
