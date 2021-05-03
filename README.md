@@ -164,8 +164,7 @@ We have a `StoredCredential` file in `src\main\resources\tokens`. It help it aut
         String from = "me";
         String subject = "[TEST] Send message";
         String timestamp = getCurrentTimestamp().toString();
-        String bodyHtml = readFileAsString(EMAIL_TEMPLATE)
-                .replace("PARAM_TIMESTAMP", timestamp);
+        String bodyHtml = readFileAsString(EMAIL_TEMPLATE).replace("PARAM_TIMESTAMP", timestamp);
         MimeMessage message = GmailHelper.createEmail(to, from, subject, "hello yellowCat", bodyHtml);
         GmailHelper gmailHelper1 = new GmailHelper();
         gmailHelper1.sendMessage(message);
