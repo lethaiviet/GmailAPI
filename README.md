@@ -193,12 +193,13 @@ Clone the repo
 Create `credentials.json` for your account gmail
 
 [comment]: <> (https://www.tablesgenerator.com/html_tables#)
+<details><summary>More details</summary>
 <table class="tg">
 <tbody>
   <tr>
-    <td class="tg-0pky">Description</td>
-    <td class="tg-0pky">Steps</td>
-    <td class="tg-0pky">Image</td>
+    <td class="tg-0pky" style="width: 20%;">Description</td>
+    <td class="tg-0pky" style="width: 30%;">Steps</td>
+    <td class="tg-0pky" style="width: 50%;">Image</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="3">In order to use Google APIs, we must create first the project on Google developer console</td>
@@ -234,8 +235,29 @@ Create `credentials.json` for your account gmail
 <img src="doc/images/06_fill_app_info_form_test_users.png" alt="06_fill_app_info_form_test_users"><br>
 </td>
   </tr>
+
+  <tr>
+    <td class="tg-0pky" rowspan="3">In order to access any data, we need to create credentials. These credentials identify our project to google and are used by our application to authorize and authenticate a user via Oauth2</td>
+    <td class="tg-0pky">8.Click to "Credentials" > Click to "Create Credentials"</td>
+    <td class="tg-0pky"><img src="doc/images/07_step_before_creating_oauth_client_id.png" alt="07_step_before_creating_oauth_client_id"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">9.Fill out the form as the image</td>
+    <td class="tg-0pky"><img src="doc/images/07_create_oauth_client_id.png" alt="07_create_oauth_client_id"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">10.Click to the CREATE button > we have the results as the image</td>
+    <td class="tg-0pky"><img src="doc/images/08_results_after_creating_oauth_client_id.PNG" alt="08_results_after_creating_oauth_client_id"></td>
+  </tr>
+
+  <tr>
+    <td class="tg-0pky" rowspan="1">In order to use gmail api, we need enable it</td>
+    <td class="tg-0pky">8.Click to "Library" > Search "Gmail api" > click to "Enable"</td>
+    <td class="tg-0pky"><img src="doc/images/10_enable_gmail_api_in_library.png" alt="10_enable_gmail_api_in_library"></td>
+  </tr>
 </tbody>
 </table>
+</details>
 <!-- USAGE EXAMPLES -->
 
 ## Usage
